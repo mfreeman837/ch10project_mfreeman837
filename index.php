@@ -11,29 +11,29 @@
 
 </head>
 <body>
-    <!-- Fancy MacOS Style Gradient Background -->
-    <div class="splotch splotch1"></div>
-    <div class="splotch splotch2"></div>
-    <div class="splotch splotch3"></div>
-    <div class="splotch splotch4"></div>
+  <!-- Fancy MacOS Style Gradient Background -->
+  <div class="splotch splotch1"></div>
+  <div class="splotch splotch2"></div>
+  <div class="splotch splotch3"></div>
+  <div class="splotch splotch4"></div>
 
-    <div class="main">
-        <h1>Building a Dynamic Form with PHP</h1>
-        <p>Created by Michael Freeman</p>
-        <p>November 10th, 2025</p>
+  <div class="main">
+    <h1>Building a Dynamic Form with PHP</h1>
+    <p>Created by Michael Freeman</p>
+    <p>November 10th, 2025</p>
 
-        <form action="confirm.php" method="POST">
-            <label for="fname">First Name:</label>
-            <input type="text" name="fname" id="fname" required pattern="[A-Za-z\s]+" /><br>
+    <form action="confirm.php" method="POST">
+      <label for="fname">First Name:</label>
+      <input type="text" name="fname" id="fname" required pattern="[A-Za-z\s]+" /><br>
 
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required /><br>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required /><br>
 
-            <label for="message">Message:</label>
-            <textarea name="message" id="message" required></textarea><br>
+      <label for="message">Message:</label>
+      <textarea name="message" id="message" required></textarea><br>
 
-            <input type="submit" value="Submit" />
-        </form>
-    </div>
+      <input type="submit" value="Submit" />
+    </form>
+  </div>
 </body>
 </html>
